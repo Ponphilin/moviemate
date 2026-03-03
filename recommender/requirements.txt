@@ -4,3 +4,4 @@ numpy
 scikit-learn
 mysql-connector-python
 flask-cors
+psycopg2-binary
