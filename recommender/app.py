@@ -11,10 +11,10 @@ CORS(app)
 
 def get_db_connection():
     return mysql.connector.connect(
-        host="localhost",
-        user="root",
-        password="",
-        database="moviemate"
+        host="sql300.byetcluster.com",
+        user="if0_41292544",
+        password="smyBNrV05tPc",
+        database="if0_41292544_moviemate"
     )
 
 
@@ -502,4 +502,5 @@ def cf_analysis(user_id):
     
 if __name__ == "__main__":
     print("🚀 Starting Hybrid Recommendation API...")
+
     app.run(host="0.0.0.0", port=10000)
